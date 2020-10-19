@@ -1,4 +1,4 @@
-function validarMail(form) 
+function validarIngreso(form) 
 {
   let user = form.user.value;
   let password = form.password.value;
@@ -14,6 +14,6 @@ function validarMail(form)
   }
   
   else {
-    return true;
+    form.submit();
   }
 }
